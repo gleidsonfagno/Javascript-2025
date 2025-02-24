@@ -31,10 +31,28 @@ const user = {
 
 // acessando propiedade e objetos notaçao ponto . e []
 
-console.log(user.name)
-user.message()
+// console.log(user.name)
+// user.message()
 
-console.log(user["email"])
-console.log(user["name"]["last_name"])
+// console.log(user["email"])
+// console.log(user["name"]["last_name"])
 
-user["message"]()
+// user["message"]()
+
+
+const product = {
+    name: "Teclado",
+    quantity: 100,
+}
+
+// acessar e atualizar
+console.log(product)
+
+product.quantity += 22
+product.name = "Mouse"
+console.log(product)
+
+// notaçao de []
+
+product["quantity"] -= 50
+console.log(product)
