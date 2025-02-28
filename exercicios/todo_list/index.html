@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Todo List</title>
+  </head>
+  <body>
+    <main>
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo" />
+      </div>
+
+      <header>
+        <a href="#"><- Voltar</a>
+        <h2>Compras da semana</h2>
+      </header>
+
+      <section>
+        <form>
+          <input type="text" name="task" id="task" placeholder="Adicione um novo item" required />
+
+          <button type="submit" class="button">Adicionar item</button>
+        </form>
+
+        <aside>
+          <ul>
+            <li class="item">
+              <span>
+                <input type="checkbox" name=""  />
+                <p>Café preto</p>
+              </span>
+
+              <img src="img/delete.png" class="remove-icon" alt="" />
+            </li> 
+          </ul>
+        </aside>
+
+        <div class="notifications">
+          <div >
+            <img
+              src="img/warning-circle-filled.png"
+              class="icon-alert"
+              alt="icone de aleta"
+            />
+            <p>O item foi removido da lista</p>
+          </div>
+          <img src="img/Icon-close.png" class="icon-close" alt="Icon-close">
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
