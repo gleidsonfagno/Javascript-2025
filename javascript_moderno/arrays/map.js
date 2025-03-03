@@ -1,4 +1,4 @@
-// Metétodo map() chama  a  função callback recebida por parâmetro para cada elemento do array original, em ordem, e coonstrói um novo com base nos retornos de cada chamada. E no final, devolve o novo array.
+// Método map() chama  a  função callback recebida por parâmetro para cada elemento do array original, em ordem, e coonstrói um novo com base nos retornos de cada chamada. E no final, devolve o novo array.
 
 const products = [
     "Teclado",
