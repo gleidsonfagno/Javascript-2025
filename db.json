@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Mouse Logitech",
+      "price": 10,
+      "description": "Description for Mouse Logitech",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "2",
+      "name": "Teclado ",
+      "price": 20,
+      "description": "Description for Teclado ",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "3",
+      "name": "Monitor",
+      "price": 30,
+      "description": "Description for Monitor",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "4",
+      "name": "Impressora",
+      "price": 40,
+      "description": "Description for Impressora",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "5",
+      "name": "Notebook",
+      "price": 50,
+      "description": "Description for Notebook",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "1745586293732",
+      "name": "",
+      "price": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": "1745586344364",
+      "name": "Notebook Ace",
+      "price": "2900",
+      "description": "botebbok game",
+      "image": "iamge do notebook"
+    }
+  ]
+}
