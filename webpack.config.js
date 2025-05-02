@@ -7,6 +7,13 @@ module.exports = {
     path: path.resolve(__dirname, "Copiladores", "dist"),
   },
   mode: "development",
+  devServer: {
+    static: {
+        directory: path.join(__dirname, "dist", "index.html"),
+    },
+    port: 3000,
+    open: true,
+  },
   plugins: [new HTMLWebpackPluguin()],
   module: {
     rules: [
